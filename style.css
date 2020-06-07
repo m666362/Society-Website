@@ -1,0 +1,21 @@
+/* For TopNavBar */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topNavBar{
+    overflow: hidden;
+    background-color: black;
+}
+.topNavBar a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 17px;
+}
+.topNavBar a:hover{
+    background-color: white;
+    color: black;
+}
