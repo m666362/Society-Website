@@ -4,8 +4,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .topNavBar{
-    overflow: hidden;
+    position: fixed;
     background-color: black;
+    top: 0px;
+    width: 100%;
 }
 .topNavBar a{
     float: left;
@@ -72,3 +74,4 @@ a.selected{
 .dropdown:hover .dropdown-content{
     display: block;
 }
+/* <!-- Mainbody Title with pic background --> */
