@@ -14,14 +14,15 @@
     <div class="topNavBar" id="topNavBarId">
         <a href="#" id="homeNav" onclick="selectOption(this.id)">Home</a>
         <a href="#" id="newsNav" onclick="selectOption(this.id)">News</a>
-        <div class="dropdown">
-            <button class="dropbutton">Dropdown
+        <!-- SubNavbar / Dropdown -->
+        <div class="dropdown" id="dropdown">
+            <button class="dropbutton" id="dropbutton">Dropdown
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#" id="subNav1" onclick = "selectSubOption(this.id)">News1</a>
-                <a href="#" id="subNav2" onclick = "selectSubOption(this.id)">News2</a>
-                <a href="#" id="subNav3" onclick = "selectSubOption(this.id)">News3</a>
+                <a href="#" id="subNav1" onclick = "selectOption(this.id)">News1</a>
+                <a href="#" id="subNav2" onclick = "selectOption(this.id)">News2</a>
+                <a href="#" id="subNav3" onclick = "selectOption(this.id)">News3</a>
             </div>
         </div>
         <a href="#" id="contactNav" onclick="selectOption(this.id)">Contact</a>
