@@ -75,3 +75,16 @@ a.selected{
     display: block;
 }
 /* <!-- Mainbody Title with pic background --> */
+.titleWithPic{
+    background: url(image/Screenshot\ \(432\).png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    text-align: center;
+    height: 800px;
+}
+
+.someText p{
+    margin-top: -20px;
+}
