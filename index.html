@@ -11,10 +11,10 @@
 <body>
     <!-- Top Navigation Bar -->
     <div class="topNavBar" id="topNavBarId">
-        <a href="#" class="activeNav" id="homeNav" onclick="gotoHome()">Home</a>
-        <a href="#" class="activeNav" id="newsNav" onclick="gotoNews()">News</a>
-        <a href="#" class="activeNav" id="contactNav" onclick="gotoContact()">Contact</a>
-        <a href="#" class="activeNav" id="aboutNav" onclick="gotoAbout()">About</a>
+        <a href="#" id="homeNav" onclick="selectOption(this.id)">Home</a>
+        <a href="#" id="newsNav" onclick="selectOption(this.id)">News</a>
+        <a href="#" id="contactNav" onclick="selectOption(this.id)">Contact</a>
+        <a href="#" id="aboutNav" onclick="selectOption(this.id)">About</a>
     </div>
     <script src="home.js"></script>
 </body>
