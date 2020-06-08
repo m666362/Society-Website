@@ -16,10 +16,55 @@ body{
     font-size: 17px;
 }
 .topNavBar a:hover{
-    background-color: grey;
-    color: white;
+    background-color: white;
+    color: black;
 }
 a.selected{
     background-color: green;
+    color: white;
+}
+
+/* Sub Nav Bar */
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown:hover .dropbutton{
+    background: blue;
+}
+.dropbutton{
+    font-size: 17px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    margin: 0;
+    background-color: inherit;
+    font-family: inherit;
+}
+.dropbutton:hover{
+    background-color: white;
     color: black;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    float: none;
+    padding: 12px 16px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
 }

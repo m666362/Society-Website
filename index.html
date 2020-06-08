@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Society</title>
 </head>
@@ -13,6 +14,16 @@
     <div class="topNavBar" id="topNavBarId">
         <a href="#" id="homeNav" onclick="selectOption(this.id)">Home</a>
         <a href="#" id="newsNav" onclick="selectOption(this.id)">News</a>
+        <div class="dropdown">
+            <button class="dropbutton">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" id="subNav1" onclick = "selectSubOption(this.id)">News1</a>
+                <a href="#" id="subNav2" onclick = "selectSubOption(this.id)">News2</a>
+                <a href="#" id="subNav3" onclick = "selectSubOption(this.id)">News3</a>
+            </div>
+        </div>
         <a href="#" id="contactNav" onclick="selectOption(this.id)">Contact</a>
         <a href="#" id="aboutNav" onclick="selectOption(this.id)">About</a>
     </div>
