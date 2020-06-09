@@ -135,3 +135,33 @@ a.selected{
     border: none;
     outline: none;
 }
+/* 2 column boody */
+.secondMainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+.secondContainer{
+    margin: 1em;
+    width: 47%;
+    height: auto;
+    text-align: justify;
+    background-color: lightblueg;
+}
+.secondContainerText{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+.secondContainer h3{
+    text-align: center;
+}
+.secondContainer p{
+    margin: 0.5em;
+}
+.secondContainer img{
+    width: 100%;
+    height: 60%;
+}
