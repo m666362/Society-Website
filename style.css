@@ -110,12 +110,28 @@ a.selected{
     align-items: center;
 }
 .firstContainerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 25%;
     margin: 3em 0.5em;
     padding: 0.5em;
     text-align: justify;
     background-color: gold;
 }
+.firstContainerContent img{
+    width: 100%;
+    height: auto;
+}
 .firstContainerContent h1{
     text-align: center;
+}
+.firstContainerContent button{
+    width: 60%;
+    height: 40px;
+    margin: 0.5em 0;
+    padding: 4px;
+    background-color: green;
+    border: none;
+    outline: none;
 }
