@@ -13,19 +13,19 @@
     <!-- Top Navigation Bar -->
     <div class="topNavBar" id="topNavBarId">
         <a href="#" id="homeNav" onclick="selectOption(this.id)">Home</a>
-        <a href="#" id="newsNav" onclick="selectOption(this.id)">News</a>
+        <a href="#serviceNavItem" id="serviceNav" onclick="selectOption(this.id)">Service</a>
         <!-- SubNavbar / Dropdown -->
         <div class="dropdown" id="dropdown">
             <button class="dropbutton" id="dropbutton">Dropdown
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#" id="subNav1" onclick="selectOption(this.id)">News1</a>
-                <a href="#" id="subNav2" onclick="selectOption(this.id)">News2</a>
-                <a href="#" id="subNav3" onclick="selectOption(this.id)">News3</a>
+                <a href="#subNav1Item" id="subNav1" onclick="selectOption(this.id)">Product-1</a>
+                <a href="#subNav2Item" id="subNav2" onclick="selectOption(this.id)">Product-2</a>
+                <a href="#subNav3Item" id="subNav3" onclick="selectOption(this.id)">Product-3</a>
             </div>
         </div>
-        <a href="#" id="contactNav" onclick="selectOption(this.id)">Contact</a>
+        <a href="#contactSection" id="contactNav" onclick="selectOption(this.id)">Contact</a>
         <a href="#" id="aboutNav" onclick="selectOption(this.id)">About</a>
     </div>
     <script src="home.js"></script>
@@ -33,13 +33,13 @@
     <!-- Mainbody Title with pic background -->
     <div class="titleWithPic">
         <div class="someText">
-            <h1>East Farider Para</h1>
-            <p>Simple Local Website</p>
+            <h1>Rich-it</h1>
+            <p>Simple Office Website</p>
         </div>
     </div>
 
     <!-- 3 column body -->
-    <div class="firstMainContainer">
+    <div id="subNav1Item" class="firstMainContainer">
         <div class="firstContainer">
             <div class="firstContainerContent">
                 <img class="firstContainerContentImage" src="image/Screenshot (432).png" alt="Firefox">
@@ -69,7 +69,7 @@
     </div>
 
     <!-- 2 column body -->
-    <div class="secondMainContainer">
+    <div id="subNav2Item" class="secondMainContainer">
         <div class="secondContainer">
             <img class="firstContainerContentImage" src="image/Screenshot (432).png" alt="Firefox">
             <h3>Some Random text</h3>
@@ -84,6 +84,89 @@
                 laudantium corrupti! Fugit facilis iure ullam eligendi recusandae minima libero iusto quaerat. Adipisci
                 corporis sequi non.</p>
         </div>
+    </div>
+    <div id="serviceNavItem" class="thirdMainContainer">
+        <div class="thirdContainer">
+            <h1>Our Services</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus iste, hic at mollitia
+                placeat, beatae non ut distinctio, ullam ex. Dignissimos saepe ratione inventore odit, enim earum odio
+                quos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, veniam hic repellat, animi ut quam
+                sit at explicabo repellendus obcaecati minima necessitatibus amet, nisi voluptatem eligendi sunt?
+                Accusamus, neque quasi!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ipsam tempore soluta accusamus, ipsum
+                culpa vel voluptatum ratione voluptatibus, libero nesciunt ut! Sed consequatur assumenda delectus? Ut
+                magni pariatur quae.</p>
+        </div>
+    </div>
+    <div id="subNav3Item" class="fourthMainContainer">
+        <div class="fourColumnContainer">
+            <div class="fourColumnContainerColumn">
+                <img src="image/Screenshot (432).png" alt="x1">
+                <h3>Column One</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse quibusdam fugit perferendis
+                    cupiditate similique earum ipsam est, aperiam nulla, pariatur unde architecto. Quis natus voluptate
+                    reprehenderit amet totam libero!</p>
+            </div>
+            <div class="fourColumnContainerColumn">
+                <img src="image/Screenshot (432).png" alt="x1">
+                <h3>Column One</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse quibusdam fugit perferendis
+                    cupiditate similique earum ipsam est, aperiam nulla, pariatur unde architecto. Quis natus voluptate
+                    reprehenderit amet totam libero!</p>
+            </div>
+            <div class="fourColumnContainerColumn">
+                <img src="image/Screenshot (432).png" alt="x1">
+                <h3>Column One</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse quibusdam fugit perferendis
+                    cupiditate similique earum ipsam est, aperiam nulla, pariatur unde architecto. Quis natus voluptate
+                    reprehenderit amet totam libero!</p>
+            </div>
+            <div class="fourColumnContainerColumn">
+                <img src="image/Screenshot (432).png" alt="x1">
+                <h3>Column One</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse quibusdam fugit perferendis
+                    cupiditate similique earum ipsam est, aperiam nulla, pariatur unde architecto. Quis natus voluptate
+                    reprehenderit amet totam libero!</p>
+            </div>
+        </div>
+    </div>
+    <div class="fifthMainContainer">
+        <div class="oneColumnContainer">
+            <img src="image/Screenshot (432).png" alt="y1">
+            <div class="oneText">
+                <h2>One Big Column</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex architecto consequuntur est molestiae
+                    minus praesentium, animi fugit repellat, deleniti facere illum nostrum impedit quibusdam veritatis
+                    ullam inventore accusantium repudiandae fugiat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, iste. Excepturi odio adipisci optio
+                    temporibus a perspiciatis! Obcaecati doloremque voluptatibus vitae rerum assumenda dolore magni
+                    culpa! Culpa a atque commodi!</p>
+            </div>
+        </div>
+    </div>
+    <div id="contactSection" class="contactMainContainer">
+        <div class="contactContainer">
+            <h2>Contact us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quisquam nobis nulla reiciendis sit
+                quibusdam deleniti cum inventore aspernatur vitae et corporis iure nemo, ea aliquid hic libero eveniet
+                consequatur.</p>
+            <div class="informationMessage">
+                <div class="information">
+                    <input type="text" id="fname" name="fname" placeholder="Name"><br>
+                    <input type="text" id="fname" name="fname" placeholder="Email"><br>
+                    <input type="text" id="fname" name="fname" placeholder="Number"><br>
+                </div>
+                <div class="message">
+                    <textarea rows="5" cols="50" name="comment" form="usrform" placeholder="Your message"></textarea>
+                    
+                </div>
+            </div>
+            <button>Send</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright © 2020 Rich-it || Md Rayhan</p>
     </div>
 </body>
 

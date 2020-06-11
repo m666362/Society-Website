@@ -77,6 +77,7 @@ a.selected{
 /* <!-- Mainbody Title with pic background --> */
 .titleWithPic{
     background: url(image/Screenshot\ \(432\).png);
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,20 +149,127 @@ a.selected{
     width: 47%;
     height: auto;
     text-align: justify;
-    background-color: lightblueg;
+    background-color: burlywood;
 }
 .secondContainerText{
     background-color: grey;
     margin: 0;
-    padding: 0;
 }
 .secondContainer h3{
     text-align: center;
 }
 .secondContainer p{
-    margin: 0.5em;
+    margin: 1em;
 }
 .secondContainer img{
     width: 100%;
     height: 60%;
+}
+/* thirdMainContainer */
+.thirdMainContainer{
+    margin: 4em 0em;
+    background: url(image/Screenshot\ \(432\).png);
+    background-attachment: fixed;
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thirdContainer{
+    text-align: justify;
+    width: 60%;
+}
+.thirdContainer h1{
+    text-align: center;
+}
+/* fourthMainContainer */
+.fourthMainContainer{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourColumnContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-align: justify;
+}
+.fourColumnContainer h3{
+    text-align: center;
+}
+.fourColumnContainerColumn{
+    width: 22%;
+    background-color: tomato;
+}
+.fourColumnContainerColumn img{
+    width: 100%;
+}
+.fourColumnContainerColumn p{
+    padding: 0 1em;
+}
+/* fifthMainContainer */
+.fifthMainContainer{
+    margin: 2em;
+    background-color: palegoldenrod;
+}
+.oneText{
+    margin: 1em 1em;
+    padding: 1em;
+    text-align: justify;
+}
+.oneColumnContainer img{
+    width: 100%;
+}
+/* Contact us */
+.contactMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    background: url(image/Screenshot\ \(432\).png);
+    background-attachment: fixed;
+}
+.contactContainer{
+    text-align: center;
+    width: 50%;
+}
+.informationMessage{
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.information input{
+    margin: 0.5em 1em;
+    border: none;
+    padding: 0.5em;
+}
+.message{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+.message textarea{
+    border: none;
+    outline: none;
+    height: 90%;
+    padding: 0.5em;
+}
+.contactContainer button{
+    border: none;
+    outline: none;
+    padding: 0.5em 2em;
+    background-color: lightcoral;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
